@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./product.css" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- inline stylesheet -->
+    <!-- internal css -->
+    <!-- external css -->
+    <!-- id, class -->
+
+    <div id="container"></div>
+    <!-- Navbar -->
+
+    <!-- list of categories -->
+
+    <section id="products">
+      <div style="width: 25%; border: 1px solid red; height: 100vh">
+        <p>Filters</p>
+      </div>
+      <div style="width: 75%; border: 1px solid black">
+        <div style="display: flex;" id="topmenu">
+          <span> Sort By </span>
+          <span> Popularity </span>
+          <span> Price -- Low to High </span>
+          <span> Price -- High to Low </span>
+        </div>
+        <div id="collection"></div>
+      </div>
+    </section>
+
+    <section id="footer">
+        <div>
+          <li class="heading">About</li>
+          <li>About Us</li>
+          <li>Career</li>
+          <li>Flipkart Stories</li>
+          <li>Press</li>
+          <li>Corporate Information</li>
+        </div>
+        <div>
+            <li class="heading">Group Companies</li>
+            <li>Myntra</li>
+            <li>Flipkart Wholesale</li>
+            <li>Cleartrip</li>
+            <li>Shopsy</li>
+        </div>
+        <div>
+          <li class="heading">Help</li>
+          <li>Payments</li>
+          <li>Shipping</li>
+          <li>Cancellation & Returns</li>
+          <li>FAQ</li>
+          <li>Report Infringement</li>
+        </div>
+        <div>
+          <li class="heading">CONSUMER POLICY</li>
+          <li>Cancellation & Returns</li>
+          <li>Terms of Use</li>
+          <li>Security</li>
+          <li>Privacy</li>
+          <li>Sitemap</li>
+          <li>Grievance Redressal</li>
+          <li>EPR Compliance</li>
+        </div>
+        <div>
+          <li class="heading">Mail Us:</li>
+          <li>Flipkart Internet Private Limited,</li>
+          <li>Buildings Alyssa, Begonia &</li>
+          <li>Clove Embassy Tech Village,</li>
+          <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+          <li>Bengaluru, 560103,</li>
+           <li>Karnataka, India</li>
+         
+        </div>
+        <div>
+          <li class="heading">Registered Office Address</li>
+          <li>Flipkart Internet Private Limited,</li>
+          <li>Buildings Alyssa, Begonia &</li>
+          <li>Clove Embassy Tech Village,</li>
+          <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+          <li>Bengaluru, 560103,</li>
+          <li>Karnataka, India</li>
+          <li>CIN: U51109KA2012PTC066107</li>
+          <li>Telephone: 044-45614700</li>
+        </div>
+      </section>
+    </body>
+    </html>
+    <script>
+        $(function () {
+          $("#container").load("./navabar.html");
+        });
+      </script>
+      <script src="./product.js"></script>
